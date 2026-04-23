@@ -12,13 +12,13 @@ db = build_rag_pipeline("data/college_support_data.pdf")
 app_graph = build_graph()
 
 
-# Root route (optional but good for testing)
+
 @app.get("/")
 def home():
     return {"message": "RAG API is running 🚀"}
 
 
-# Ask API
+
 @app.get("/ask")
 def ask(query: str):
     result = app_graph.invoke({
@@ -26,7 +26,7 @@ def ask(query: str):
         "db": db
     })
 
-    # format answer (new lines proper display sathi)
+   
     formatted = result["answer"].replace("\n", "<br>")
 
     return {
