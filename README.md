@@ -96,29 +96,29 @@ pip install -r requirements.txt
 
 python main.py
 
-Sample Queries
+### Sample Queries
 What is the refund policy?
 How can I apply for admission?
 What documents are required?
 
-Workflow (LangGraph)
+### Workflow (LangGraph)
 Input Query → Processing Node
 Retrieval → LLM Generation
 Confidence Check → Decision
 Output OR HITL Escalation
 
- Key Concepts Used
+### Key Concepts Used
 Retrieval-Augmented Generation (RAG)
 Vector Similarity Search
 Graph-based Workflow (LangGraph)
 Human-in-the-Loop (HITL)
 
-Challenges & Trade-offs
+### Challenges & Trade-offs
 Accuracy vs Speed
 Chunk Size vs Context Quality
 Cost vs Performance
 
-Future Enhancements
+### Future Enhancements
 Multi-document support
 Conversational memory
 Feedback-based learning
