@@ -96,6 +96,9 @@ pip install -r requirements.txt
 
 python main.py
 
+### demo / screenshot
+<img width="1919" height="997" alt="image" src="https://github.com/user-attachments/assets/073117f4-bece-491e-8712-2eacead3a4c0" />
+
 ### Sample Queries
 What is the refund policy?
 How can I apply for admission?
